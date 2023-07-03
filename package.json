@@ -1,0 +1,60 @@
+{
+	"name": "convert-numbers",
+	"version": "0.1.0",
+	"description": "Convert Persian, Arabic and English numbers to each other.",
+	"author": "Shahab Movahhedi <dev@shmovahhedi.com>",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/movahhedi/convert-numbers"
+	},
+	"bugs": {
+		"url": "https://github.com/movahhedi/convert-numbers/issues"
+	},
+	"homepage": "https://github.com/movahhedi/convert-numbers#readme",
+	"keywords": [
+		"convert",
+		"number",
+		"persian",
+		"arabic",
+		"english",
+		"js",
+		"movahhedi"
+	],
+	"type": "module",
+	"source": "./src/index.ts",
+	"exports": {
+		"require": "./dist/index.cjs",
+		"default": "./dist/index.modern.js"
+	},
+	"main": "./dist/index.cjs",
+	"module": "./dist/index.module.js",
+	"unpkg": "./dist/index.umd.js",
+	"types": "./dist/index.d.ts",
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "microbundle build --tsconfig tsconfig.json --raw true -f modern,esm,cjs,umd",
+		"dev": "microbundle watch",
+		"test": "jest"
+	},
+	"devDependencies": {
+		"@types/jest": "^29.5.2",
+		"jest": "^29.5.0",
+		"microbundle": "^0.15.1",
+		"ts-jest": "^29.1.1",
+		"typescript": "^5.1.6"
+	},
+	"jest": {
+		"preset": "ts-jest",
+		"transform": {
+			"^.+\\.tsx?$": [
+				"ts-jest",
+				{
+					"diagnostics": false
+				}
+			]
+		}
+	}
+}
