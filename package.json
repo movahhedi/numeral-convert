@@ -1,17 +1,17 @@
 {
-	"name": "convert-numbers",
+	"name": "numeral-convert",
 	"version": "0.1.0",
 	"description": "Convert Persian, Arabic and English numbers to each other.",
 	"author": "Shahab Movahhedi <dev@shmovahhedi.com>",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/movahhedi/convert-numbers"
+		"url": "https://github.com/movahhedi/numeral-convert"
 	},
 	"bugs": {
-		"url": "https://github.com/movahhedi/convert-numbers/issues"
+		"url": "https://github.com/movahhedi/numeral-convert/issues"
 	},
-	"homepage": "https://github.com/movahhedi/convert-numbers#readme",
+	"homepage": "https://github.com/movahhedi/numeral-convert#readme",
 	"keywords": [
 		"convert",
 		"number",

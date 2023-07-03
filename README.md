@@ -1,21 +1,21 @@
-# convert-numbers
+# numeral-convert
 Convert Persian, Arabic and English numbers to each other.
 
 ## Installation
 
-To install convert-numbers, you can use either npm or Yarn.
+To install numeral-convert, you can use either npm or Yarn.
 
 ```
-npm install convert-numbers
+npm install numeral-convert
 
 // OR
 
-yarn add convert-numbers
+yarn add numeral-convert
 ```
 
 ## Usage
 
-The following are the functions provided by convert-numbers:
+The following are the functions provided by numeral-convert:
 
 * `EnglishToPersian()`: Converts English numerals to Persian numerals.
 * `EnglishToArabic()`: Converts English numerals to Arabic numerals.
@@ -30,7 +30,7 @@ The following are the functions provided by convert-numbers:
 For example, the following code converts the number "12345" to Persian numerals:
 
 ```
-import convertNumbers from "convert-numbers";
+import convertNumbers from "numeral-convert";
 
 const persianNumbers = convertNumbers.EnglishToPersian("12345");
 
