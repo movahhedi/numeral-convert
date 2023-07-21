@@ -29,12 +29,12 @@ The following are the functions provided by numeral-convert:
 
 For example, the following code converts the number "12345" to Persian numerals:
 
-```
+```ts
 import convertNumbers from "numeral-convert";
 
 const persianNumbers = convertNumbers.EnglishToPersian("12345");
 
-console.log(persianNumbers); // ۰۱۲۳۴۵
+console.log(persianNumbers); // ۱۲۳۴۵
 ```
 
 ## License
